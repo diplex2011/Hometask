@@ -1,1 +1,16 @@
-
+grep -c 'GNU' /usr/share/common-licenses/GPL-3 | cat
+19
+grep -ci 'license' /usr/share/common-licenses/GPL-3 | cat
+110
+greo -сv "the*" /usr/share/common-licenses/GPL-3 | cat
+276
+grep -c "^GNU" /usr/share/common-licenses/GPL-3 | cat
+2
+grep -c "and$" /usr/share/common-licenses/GPL-3 | cat
+10
+grep -c "..cept" /usr/share/common-licenses/GPL-3 | cat
+12
+grep -c "t[wo]o" /usr/share/common-licenses/GPL-3 | cat
+12
+grep -c "^[A-Z]" /usr/share/common-licenses/GPL-3 | cat
+41
